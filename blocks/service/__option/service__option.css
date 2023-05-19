@@ -1,0 +1,11 @@
+.service__option{
+    margin:0;
+    padding: 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(80, 184, 72);
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px  rgb(80, 184, 72);
+}

@@ -1,0 +1,10 @@
+.service__subtitle{
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgb(80, 184, 72);
+}

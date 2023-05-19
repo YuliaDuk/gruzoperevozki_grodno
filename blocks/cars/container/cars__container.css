@@ -1,0 +1,10 @@
+.cars__container{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid rgb(80, 184, 72);
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px  rgb(80, 184, 72);
+}

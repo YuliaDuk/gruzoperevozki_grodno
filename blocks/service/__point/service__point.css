@@ -1,0 +1,10 @@
+.service__point{
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    align-self: flex-start;
+}
+.service__point:last-child{
+    padding-bottom: 30px;
+}

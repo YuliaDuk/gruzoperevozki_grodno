@@ -1,0 +1,9 @@
+.content__price{
+    margin: 0;
+    padding: 0 0 100px 40px;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: rgb(80, 184, 72);
+}

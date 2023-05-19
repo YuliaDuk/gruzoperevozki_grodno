@@ -1,0 +1,16 @@
+.content__container-for-tel{
+    margin: 100px 40px 0 40px;
+    padding: 0;
+    background-color: rgb(80, 184, 72);
+    width: 400px;
+    height: 100px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: opacity .7s;
+}
+.content__container-for-tel:hover{
+    opacity: .7
+}

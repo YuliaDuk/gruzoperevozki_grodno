@@ -1,0 +1,7 @@
+.content__photo{
+    margin: 0;
+    padding: 50px;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}

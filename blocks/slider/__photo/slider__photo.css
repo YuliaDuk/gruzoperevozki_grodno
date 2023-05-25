@@ -1,0 +1,7 @@
+.slider__photo{
+    width: 600px;
+  height: 460px;
+  object-fit: cover;
+  position: absolute;
+  transition: all ease 1s;
+}

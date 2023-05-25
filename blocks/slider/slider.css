@@ -1,0 +1,9 @@
+.slider{
+    margin: 30px;
+    padding: 0;
+    position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  flex-shrink: 0;
+}

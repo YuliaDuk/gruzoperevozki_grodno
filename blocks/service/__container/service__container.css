@@ -4,4 +4,5 @@
     display: flex;
     justify-content: space-around;
     gap: 30px;
+    width: 1200px;
 }

@@ -1,0 +1,8 @@
+.content__container-for-contact{
+    margin:0 0 0 40px;
+    padding: 0;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

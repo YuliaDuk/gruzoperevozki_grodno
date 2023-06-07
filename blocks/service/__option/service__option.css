@@ -10,3 +10,9 @@
     border-radius: 10px;
     box-shadow: 7px 5px 5px  rgb(80, 184, 72);
 }
+@media screen and (max-width: 800px) {
+    .service__option{
+        box-shadow: 2px 2px 5px  rgb(80, 184, 72);
+    }
+    
+}

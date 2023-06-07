@@ -8,3 +8,16 @@
     color: #00c395;
     text-decoration: none;
 }
+@media screen and (max-width: 1200px) {
+    .content__tel{
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        padding: 20px;
+    } 
+}
+@media screen and (max-width: 850px) {
+    .content__tel{
+        letter-spacing: 0.05em;
+        padding: 15px;
+    } 
+}

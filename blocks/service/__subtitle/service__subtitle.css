@@ -7,4 +7,18 @@
     letter-spacing: 0.1em;
     text-align: center;
     color: rgb(80, 184, 72);
+    width: 95%;
+}
+@media screen and (max-width: 950px) {
+    .service__subtitle{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .service__subtitle{
+        font-size: 17px;
+        line-height: 20px;
+        padding: 0 0 7px 0;
+    }
 }

@@ -2,5 +2,15 @@
     margin: 15px;
     padding: 0;
     width: 100px;
-    height: 100px;
+    object-fit: cover;
+}
+@media screen and (max-width: 950px) {
+    .service__img{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .service__img{
+        width: 40px;
+    }
 }

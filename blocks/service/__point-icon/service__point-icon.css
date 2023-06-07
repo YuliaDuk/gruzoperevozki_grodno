@@ -2,6 +2,16 @@
     margin:0;
     padding: 0;
     width: 35px;
-    height: 35px;
     align-self: center;
+    object-fit: cover;
+}
+@media screen and (max-width: 950px) {
+    .service__point-icon{
+        width: 25px;
+    } 
+}
+@media screen and (max-width: 800px) {
+    .service__point-icon{
+        width: 20px;
+    } 
 }

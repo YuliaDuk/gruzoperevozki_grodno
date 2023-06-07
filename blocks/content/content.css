@@ -3,5 +3,12 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 4px solid rgb(80, 184, 72);
+}
+@media screen and (max-width: 800px) {
+    .content{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

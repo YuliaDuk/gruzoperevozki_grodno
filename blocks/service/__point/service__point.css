@@ -8,3 +8,16 @@
 .service__point:last-child{
     padding-bottom: 30px;
 }
+@media screen and (max-width: 950px) {
+    .service__point{
+        padding: 10px;
+    }
+    .service__point:last-child{
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .service__point{
+        padding: 5px 10px;
+    }
+}

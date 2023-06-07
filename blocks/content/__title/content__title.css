@@ -7,3 +7,29 @@
     letter-spacing: 0em;
     color: rgb(61, 61, 61)
 }
+@media screen and (max-width: 1200px) {
+    .content__title{
+        padding: 15px 0 0 40px;
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .content__title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .content__title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .content__title{
+        padding: 0;
+        max-width: 90%;
+        text-align: center;
+    }
+}

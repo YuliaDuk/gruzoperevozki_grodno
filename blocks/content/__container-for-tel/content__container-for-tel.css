@@ -14,3 +14,18 @@
 .content__container-for-tel:hover{
     opacity: .7
 }
+@media screen and (max-width: 1100px) {
+    .content__container-for-tel{
+        width: 300px;
+    } 
+}
+@media screen and (max-width: 850px) {
+    .content__container-for-tel{
+        width: 250px;
+    } 
+}
+@media screen and (max-width: 800px) {
+    .content__container-for-tel{
+        margin: 0;
+    } 
+}

@@ -8,3 +8,30 @@
     text-align: center;
     color: rgb(61, 61, 61)
 }
+@media screen and (max-width: 1000px) {
+    .price__item-price{
+        padding: 5px;
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .price__item-price{
+        padding: 5px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .price__item-price{
+        padding: 3px;
+        font-size: 17px;
+        line-height: 19px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .price__item-price{
+        padding: 0px;
+        font-size: 14px;
+    }
+}

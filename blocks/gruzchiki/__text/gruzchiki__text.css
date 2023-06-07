@@ -9,3 +9,22 @@
     color: rgb(61, 61, 61);
     text-align: left;
 }
+@media screen and (max-width: 850px) {
+    .gruzchiki__text{
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .gruzchiki__text{
+        padding: 0 0 0 15px;
+        font-size: 17px;
+        line-height: 19px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .gruzchiki__text{
+        padding: 10px 10px 0 10px;
+        text-align: center;
+    }
+}

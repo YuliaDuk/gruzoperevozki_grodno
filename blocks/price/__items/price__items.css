@@ -4,3 +4,9 @@
     list-style: none;
     width: 100%;
 }
+@media screen and (max-width: 1000px) {
+    .price__items{
+        padding: 10px;
+    }
+    
+}

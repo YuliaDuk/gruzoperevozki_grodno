@@ -1,6 +1,7 @@
 const slides = document.querySelectorAll(".slider__photo");
 const sliderBtn = document.querySelector(".slider");
 const slider = [];
+let sliderBtnWidth = sliderBtn.offsetWidth
 let step = 0;
 let offset = 0;
 
@@ -13,7 +14,7 @@ function draw() {
   const img = document.createElement("img");
   img.src = slider[step];
   img.classList.add("slider__photo");
-  img.style.left = offset * 600 + "px";
+  img.style.left = offset * sliderBtnWidth + "px";
   document.querySelector(".slider").appendChild(img);
  
   if (step + 1 == slider.length) {
@@ -28,7 +29,7 @@ function left() {
   let slides2 = document.querySelectorAll(".slider__photo");
   let offset2 = 0;
   for (let i = 0; i < slides2.length; i++) {
-    slides2[i].style.left = offset2 * 600 - 600 + "px";
+    slides2[i].style.left = offset2 * sliderBtnWidth - sliderBtnWidth + "px";
     offset2++;
   }
   setTimeout(function () {

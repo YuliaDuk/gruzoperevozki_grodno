@@ -9,7 +9,7 @@ for (let i = 0; i < slides.length; i++) {
   slider[i] = slides[i].src;
   slides[i].remove();
 }
-console.log(slider)
+
 function draw() {
   const img = document.createElement("img");
   img.src = slider[step];
